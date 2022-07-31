@@ -31,6 +31,6 @@ servidor.puerto=0
 
 
 #SwaggerLink
-http://localhost:8080/swagger-ui.html#!/web-controller/Spring_Integration_with_IBM_MQ
+http://localhost:8080/swagger-ui.html#!/web-controller
 
 Nota: el puerto: 8080 puede diferir, si desea usar un puerto aleatorio para ejecutar su aplicación Spring-Boot.
