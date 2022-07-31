@@ -27,7 +27,7 @@ mvn clean install
 mvn spring-boot:run
 
 ## Para usar el puerto 8080 aleatorio en lugar del predeterminado para la aplicación Spring Boot, use la siguiente propiedad en 'application.properties'
-servidor.puerto=0
+server.port=0
 
 
 #SwaggerLink
