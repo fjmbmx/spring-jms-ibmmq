@@ -1,4 +1,4 @@
-Integration Spring con IBM MQ
+# Integracion de Spring con IBM MQ
 
 Conexión a IBM MQ con Spring Boot y JMS Spring Boot se integra casi a la perfección con IBM MQ, gracias a su compatibilidad con JMS.Puede usar Spring Initializr para generar el código auxiliar del proyecto para una aplicación simple con JMS. 
 
@@ -12,7 +12,7 @@ La configuración de beans específicos para la aplicación actual se incluye de
 
 Habiendo definido todos los beans, ahora es el momento de usarlos en un servicio concreto, que sirve como consumidor y productor de mensajes, que es MQGateway.java
 
-# spring-jms-ibmmq
+## spring-jms-ibmmq
 
 Requerimienos:
 Contar con los daos de conexion a IBMMQ
@@ -26,7 +26,7 @@ mvn clean install
 #Para correr la aplicacion desde el cmd
 mvn spring-boot:run
 
-# Para usar el puerto 8080 aleatorio en lugar del predeterminado para la aplicación Spring Boot, use la siguiente propiedad en 'application.properties'
+## Para usar el puerto 8080 aleatorio en lugar del predeterminado para la aplicación Spring Boot, use la siguiente propiedad en 'application.properties'
 servidor.puerto=0
 
 
